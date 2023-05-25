@@ -1,0 +1,17 @@
+Package: PipelineDE
+Type: Package
+Title: Differential expression analysis pipeline in an R Shiny app
+Version: 0.1.0
+Authors@R: 
+    person("Quentin", "Riviere", , "quentin.riviere@umbr.cas.cz", role = c("aut", "cre"))
+Description: Perform differential expression analysis based on bam files, using edgeR and DESeq2.
+Depends: BiocManager, Rsubread, Rsamtools, DESeq2, edgeR, rtracklayer, shiny, shinyFiles, DT, S4Vectors, stats
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
